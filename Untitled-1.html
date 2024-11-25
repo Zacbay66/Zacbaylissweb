@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zac Bayliss</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: black; /* Black background */
+    }
+
+    .container {
+      text-align: center;
+      width: 90%;
+      max-width: 400px;
+      padding: 30px;
+      border-radius: 15px;
+      background-color: rgba(255, 255, 255, 0.1); /* Transparent container */
+      box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.1);
+    }
+
+    .profile-pic {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      object-fit: cover;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    }
+
+    .container h1 {
+      margin-bottom: 20px;
+      font-size: 24px;
+      color: white; /* White text for the heading */
+    }
+
+    @keyframes colorChange {
+      0% {
+        background-color: rgb(52, 152, 219); /* Start color */
+      }
+      50% {
+        background-color: rgb(231, 76, 60); /* Mid-transition color */
+      }
+      100% {
+        background-color: rgb(46, 204, 113); /* End color */
+      }
+    }
+
+    .link-box {
+      display: block;
+      margin: 10px 0;
+      padding: 15px;
+      font-size: 18px;
+      color: white; /* White text */
+      text-decoration: none;
+      border-radius: 5px;
+      background-color: rgb(52, 152, 219); /* Initial RGB background color */
+      border: 2px solid black; /* Black outline */
+      animation: colorChange 5s infinite; /* Color transition */
+      transition: background-color 0.3s ease;
+    }
+
+    .link-box:hover {
+      background-color: rgb(41, 128, 185); /* Hover color */
+      border-color: black; /* Keeps black outline on hover */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Profile Picture Section -->
+    <img src="333070910_122648897238125_4311306012028961343_n.jpg" alt="Profile Picture" class="profile-pic">
+
+    <h1>My Links</h1>
+    
+    <!-- Links Section -->
+    <a href="https://www.facebook.com/zacbayliss01/" class="link-box">Facebook</a>
+    <a href="https://www.instagram.com/zac.bayliss1/" class="link-box">Instagram</a>
+    <a href="https://www.snapchat.com/add/zacbayliss0" class="link-box">Snapchat</a>
+    <a href="https://www.tiktok.com/@zac.bayliss1" class="link-box">Tiktok</a>
